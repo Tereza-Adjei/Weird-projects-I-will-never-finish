@@ -1,0 +1,71 @@
+body {
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    max-width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: large; 
+    color: blueviolet;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px; 
+}
+
+.header h1 {
+    position: relative;
+    top: 5px;
+    margin: 0px;
+}
+
+.more {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    right: 20px;
+    top: 10px;
+}
+
+
+.homePageMain {
+    position: relative;
+    left: 400px;
+    right: 100px;
+    top: 70px;
+    background-color: black;
+    color: white;
+    height: 800px;
+    width: 900px;
+}
+
+
+.homePageSide {
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    background-color: black;
+    width: 200px;
+    height: 400px;
+}
+
+.homePageMain h2 , ul {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    margin: 0px;
+}
+
+.watching li {
+    padding: 10px;
+}
+
+.watched li {
+    padding: 10px;
+}
+
+.plantowatch li {
+    padding: 10px;
+}
